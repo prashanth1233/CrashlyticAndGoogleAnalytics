@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prasanth.googleanalyticsapplication.MainActivity">
+
+    <Button
+        android:id="@+id/nextAcitivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Next Activity" />
+
+    <Button
+        android:id="@+id/hyderabadBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hyderabad"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/ahmedabadBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahmedabad"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/delhiBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delhi" />
+
+    <Button
+        android:id="@+id/forceCrashBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nextAcitivityButton"
+        android:layout_centerInParent="true"
+        android:text="Force Crash" />
+    <Button
+        android:id="@+id/vizagBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vizag"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
